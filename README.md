@@ -13,9 +13,11 @@ laravel >= 5.1 & PHP > 7.1.3
 $ composer require zhangchenxi2019/zunit-laravel -vvv
 ```
 
-## 配置方式
 
-手动配置laravel把zunit服务引入到config/app.app中
+## 配置方式 
+laravel > 5.5 不需要手动配置
+larvel  < 5.5 是需要手动配置服务到app.php 中
+手动配置laravel把zunit服务引入到config/app.php中
 ```
    Zhangchenxi2019\ZunitLaravel\Providers\ZunitServiceProvider::class
 ```
