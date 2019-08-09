@@ -15,5 +15,13 @@
         "psr-4": {
             "Zhangchenxi2019\\ZunitLaravel\\": "src"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhangchenxi2019\\ZunitLaravel\\Providers\\ZunitServiceProvider"
+            ]
+        }
     }
 }
